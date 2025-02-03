@@ -42,5 +42,4 @@ def Hangman():
 	if lifes == 0:
 		print(f'You lost! The word was {wordd.capitalize()}.\n')
 
-while True:
-	Hangman()
+Hangman()
