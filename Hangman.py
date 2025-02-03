@@ -13,8 +13,8 @@ def Hangman():
 	guessed = []
 	print(f'   Chances: {lifes}\n   {" ".join(guess)}')
 	while lifes > 0:
-		char = input('   ')
-		if char.lower() == wordd:
+		char = input('   ').lower()
+		if char == wordd:
 			print('You won!\n')
 			lifes =-1
 		elif len(char) > 2:
